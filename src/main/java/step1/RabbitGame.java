@@ -10,7 +10,7 @@ public class RabbitGame {
 
     private static int RESULT = 1;
     public static void main(String[] args) {
-        printGmaeRules();
+        printGameRules();
 
         System.out.println("토끼잡기 게임 시작합니다!");
 
@@ -55,7 +55,7 @@ public class RabbitGame {
         return RANDOM.nextInt(10) + 1;
     }
 
-    private static void printGmaeRules() {
+    private static void printGameRules() {
         System.out.println("===========================================");
         System.out.println("토끼잡기 게임 룰 설명");
         System.out.println("===========================================");
