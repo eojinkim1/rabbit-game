@@ -12,7 +12,7 @@ public class GameRestart {
                 System.out.println("게임을 종료합니다.");
                 return false;
             } else if (restart.equals("N")){
-                System.out.println("새로운 게임을 시작합니다.");
+                System.out.println("새로운 게임을 시작합니다!");
                 return true;
             }
             System.out.println("잘못된 입력입니다.");
