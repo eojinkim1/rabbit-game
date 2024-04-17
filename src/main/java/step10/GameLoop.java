@@ -1,8 +1,5 @@
 package step10;
 
-import step8.GameRestart;
-
-import java.util.InputMismatchException;
 import java.util.Scanner;
 public class GameLoop {
     private static final Scanner SCANNER = new Scanner(System.in);
@@ -15,8 +12,6 @@ public class GameLoop {
             if (!askRestart()) {
                 return false;
             }
-//            player = new Player();
-//            rabbit = new Rabbit();
         }
     }
     public boolean askRestart() {
