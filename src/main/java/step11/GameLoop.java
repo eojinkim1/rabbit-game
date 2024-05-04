@@ -19,6 +19,7 @@ public class GameLoop {
             String restart = SCANNER.next().toUpperCase();
             if (restart.equals("Y")) {
                 System.out.println("새로운 게임을 시작합니다!!");
+                System.out.println("-10 ~ 10 사이의 숫자를 입력하여 토끼가 있는 칸을 예측해주세요!");
                 return true;
             } else if (restart.equals("N")) {
                 System.out.println("게임을 종료합니다.");
