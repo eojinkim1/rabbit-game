@@ -8,8 +8,9 @@ public class Player {
     public int move(){
         while (true){
             try {
-                playerPosition = Integer.parseInt(SCANNER.next());
-                if (playerPosition >= -10 && playerPosition <= 10) {
+                int inputPlayerPosition = Integer.parseInt(SCANNER.next());
+                if (inputPlayerPosition >= -10 && inputPlayerPosition <= 10) {
+                    playerPosition += inputPlayerPosition;
                     break; // 올바른 범위의 입력이면 반복문 탈출
                 } else {
                     System.out.println("입력값은 -10에서 10 사이의 값이어야 합니다.");
